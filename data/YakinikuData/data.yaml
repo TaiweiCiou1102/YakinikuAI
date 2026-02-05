@@ -1,0 +1,13 @@
+train: D:\Taiwei\AI Image Recognition Learn\phase1\data\YakinikuData\train\images
+val: D:\Taiwei\AI Image Recognition Learn\phase1\data\YakinikuData\valid\images
+test: D:\Taiwei\AI Image Recognition Learn\phase1\data\YakinikuData\test\images
+
+nc: 3
+names: ["Overcooked", "Undercooked", "Well-Cooked"]
+
+roboflow:
+  workspace: taiweideveloping1102
+  project: yakiniku-rxjrj-nnwqy
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/taiweideveloping1102/yakiniku-rxjrj-nnwqy/dataset/1
