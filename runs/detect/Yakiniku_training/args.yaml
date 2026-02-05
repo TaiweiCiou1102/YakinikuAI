@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolo11n.pt
-data: ./data/YanikuData/data.yaml
+data: ./data/YakinikuData/data.yaml
 epochs: 5
 time: null
 patience: 100
@@ -13,7 +13,7 @@ cache: false
 device: cpu
 workers: 8
 project: runs/detect
-name: Yakiniku_training
+name: Yakiniku_training3
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: D:\Taiwei\AI Image Recognition Learn\phase1\runs\detect\Yakiniku_training
+save_dir: D:\Taiwei\AI Image Recognition Learn\phase1\runs\detect\Yakiniku_training3
